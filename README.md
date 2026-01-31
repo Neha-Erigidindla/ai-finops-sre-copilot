@@ -1,43 +1,57 @@
-# AI FinOps & SRE Co-Pilot
+# 🚀 AI FinOps & SRE Co-Pilot  
+> **IBM Dev Day – AI Demystified Hackathon 2026**
 
-> **IBM Dev Day AI Demystified Hackathon 2026**
+🔍 *Optimize cloud costs without breaking production.*
 
-An intelligent multi-agent system that optimizes cloud infrastructure costs while maintaining service-level objectives (SLOs). Built using IBM watsonx Orchestrate.
+An **agentic AI system** that analyzes cloud infrastructure **cost + performance metrics** and recommends **safe, SLO-aware optimizations** — inspired by real **FinOps & SRE practices at Google and Amazon**.
+
+Built using **IBM watsonx Orchestrate** and **IBM Granite 3.1**.
+
+---
 
 ## 🎯 Problem Statement
 
-Cloud costs are rising 20-30% annually, but organizations struggle to optimize because:
-- Aggressive cost-cutting can break production systems
-- Manual analysis is slow and error-prone
-- Trade-offs between cost and reliability are unclear
-- Engineers lack confidence in infrastructure changes
+Cloud costs are increasing **20–30% every year**, but organizations struggle to optimize because:
 
-**The cost of getting this wrong:** Production outages, SLO breaches, customer impact.
+- ❌ Aggressive cost-cutting breaks production systems  
+- ❌ Manual analysis is slow and error-prone  
+- ❌ Cost vs reliability trade-offs are unclear  
+- ❌ Engineers fear SLO violations  
 
-## 💡 Solution
+💥 **The real risk:** outages, SLO breaches, customer impact, and revenue loss.
 
-A multi-agent AI system that thinks like real cloud teams at Google and Amazon:
+---
 
-### **Agent 1: FinOps Analyzer**
-- Analyzes resource utilization (CPU, memory)
-- Identifies over-provisioned instances
-- Recommends specific downsizing actions
-- Calculates potential savings
+## 💡 Solution Overview
 
-### **Agent 2: SRE Risk Evaluator**
-- Reviews cost optimization recommendations
-- Analyzes latency and error rate metrics
-- Classifies changes: SAFE / CAUTION / RISKY
-- Prevents SLO violations
+A **multi-agent AI system** that behaves like a real cloud operations team.
 
-### **Agent 3: Orchestrator (FinOps & SRE Co-Pilot)**
-- Coordinates both specialized agents
-- Synthesizes insights into executive reports
-- Provides clear, actionable next steps
-- Balances cost efficiency with reliability
+### 🟦 FinOps Analyzer Agent
+- Analyzes CPU & memory utilization
+- Detects over-provisioned resources
+- Recommends right-sizing actions
+- Estimates monthly cost savings
 
-## 🏗️ Architecture
-```
+### 🟩 SRE Risk Evaluator Agent
+- Reviews FinOps recommendations
+- Analyzes latency & error-rate SLOs
+- Classifies changes as:
+  - ✅ SAFE  
+  - ⚠️ CAUTION  
+  - 🚫 RISKY  
+- Blocks changes that could break production
+
+### 🟨 Orchestrator (FinOps & SRE Co-Pilot)
+- Coordinates all agents
+- Synthesizes insights into executive-level reports
+- Balances **cost efficiency + reliability**
+- Produces clear, actionable decisions
+
+---
+
+## 🏗️ System Architecture
+
+
 ┌─────────────────────────────────────────────┐
 │  User: "Optimize my cloud infrastructure"  │
 └───────────────────┬─────────────────────────┘
@@ -63,68 +77,63 @@ A multi-agent AI system that thinks like real cloud teams at Google and Amazon:
               └──────────────────┘
 ```
 
-**Key Design Principles:**
-- **Separation of concerns** - Each agent has a focused responsibility
-- **SLO-driven decisions** - Reliability metrics guide every recommendation
-- **Multi-agent orchestration** - Agents collaborate to solve complex problems
-- **Production-ready thinking** - Canary deployments, phased rollouts, risk management
+---
+
+## 📸 Demo Screenshots
+
+### 🔹 Multi-Agent Configuration
+![Three Agents](screenshots/01-three-agents.png)
+
+### 🔹 Orchestrator ↔ Agent Conversation
+![Conversation](screenshots/02-orchestrator-conversation.png)
+![Conversation 1](screenshots/02-orchestrator-conversation_1.png)
+![Conversation 2](screenshots/02-orchestrator-conversation_2.png)
+
+### 🔹 Executive Summary Output
+![Executive Summary](screenshots/03-executive-summary.png)
+
+### 🔹 Safe Cost Optimizations
+![Safe Recommendations](screenshots/04-safe-recommendations.png)
+
+### 🔹 Blocked Risky Change
+![Blocked Risky Change](screenshots/05-blocked-risky-change.png)
+
+---
 
 ## 📊 Results
 
-**Analyzed Environment:**
-- 10 cloud services (payment APIs, analytics, auth, dashboards)
-- Mixed utilization patterns (20-90% CPU/memory)
-- Varied SLO requirements (latency, error rates)
-
-**System Output:**
+**Analyzed Environment**
+- 10 cloud services (auth, payment, analytics, dashboards)
+- Mixed utilization (20–90%)
+- Strict latency & error SLOs
 
 | Category | Services | Monthly Savings | Status |
-|----------|----------|----------------|--------|
-| **SAFE** | 3 services | $626/month | ✅ Deploy immediately |
-| **CAUTION** | 2 services | $200/month | ⚠️ Phased rollout with monitoring |
-| **RISKY** | 1 service | $0 (blocked) | 🚫 Prevented potential outage |
+|--------|----------|-----------------|--------|
+| ✅ SAFE | 3 | $626/month | Deploy immediately |
+| ⚠️ CAUTION | 2 | $200/month | Canary rollout |
+| 🚫 RISKY | 1 | $0 | Blocked |
 
-**Total Potential Savings:** $826/month (40% cost reduction)
+💡 **Total Potential Savings:** **$826/month (~40%)**
 
-**Key Win:** System automatically blocked a risky change to `auth-service` that was operating at 94% of latency SLO - preventing a potential production incident.
+🚨 **Key Win:**  
+The system automatically **blocked a risky downsizing** of `auth-service` operating at **94% of latency SLO**, preventing a potential production outage.
 
-## 🚀 How It Works
+---
 
-### User Query
-```
-"Analyze my cloud infrastructure and recommend safe cost optimizations"
-```
+## 🧠 Example System Output
 
-### System Response
-```
-📊 EXECUTIVE SUMMARY
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Total Potential Monthly Savings: $826/month
+```text
+EXECUTIVE SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Total Monthly Savings: $826
 
-- Safe changes: 3 services ($626/month)
-- Cautionary changes: 2 services ($200/month)
-- Blocked changes: 1 service ($0/month)
+Safe changes: 3 services ($626)
+Caution changes: 2 services ($200)
+Blocked changes: 1 service
 
-Overall Recommendation: Deploy 3 safe optimizations immediately.
-
-✅ SAFE RECOMMENDATIONS
-
-Service: payment-api
-Current: m5.2xlarge @ $450/month
-Proposed: m5.xlarge @ $270/month
-Savings: $180/month
-SLO Safety:
-  • Latency: 45ms (SLO: 100ms) → 55% headroom ✓
-  • Error Rate: 0.1% (SLO: 0.5%) → 80% headroom ✓
-Action: Deploy via standard change process
-
-🚫 BLOCKED RECOMMENDATIONS
-
-Service: auth-service
-Why Blocked: Latency headroom only 6% - operating at edge of SLO
-Alternative: Optimize performance before downsizing
-Action: Do not implement
-```
+Recommendation:
+Deploy safe optimizations immediately.
+Use phased canary deployments for caution items.
 
 ## 🛠️ Technical Stack
 
@@ -137,14 +146,22 @@ Action: Do not implement
 ## 📁 Repository Structure
 ```
 ai-finops-sre-copilot/
-├── README.md                          # You are here
-├── docs/
-│   ├── architecture.md                # Detailed system design
-│   └── agent-instructions.md          # Complete agent prompts
+├── README.md
 ├── data/
-│   └── cloud_infrastructure_metrics.csv  # Sample infrastructure data
+│   └── cloud_infrastructure_metrics.csv
+├── agents/
+│   ├── finops_analyzer.prompt
+│   ├── sre_risk_evaluator.prompt
+│   └── orchestrator.prompt
 └── screenshots/
-    └── [Demo screenshots]
+    ├── 01-three-agents.png
+    ├── 02-orchestrator-conversation.png
+    ├── 02-orchestrator-conversation_1.png
+    ├── 02-orchestrator-conversation_2.png
+    ├── 03-executive-summary.png
+    ├── 04-safe-recommendations.png
+    └── 05-blocked-risky-change.png
+
 ```
 
 ## 🎓 What I Learned
