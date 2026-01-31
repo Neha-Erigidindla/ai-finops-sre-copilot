@@ -108,39 +108,62 @@ A <b>multi-agent AI system</b> that behaves like a real cloud operations team.
 
 ## 📸 Demo Screenshots
 
-<!-- Multi-Agent Configuration -->
-### 🔹 Multi-Agent Configuration
-
-<p align="center">
-  <img src="screenshots/01-three-agents.png" width="70%" alt="Multi-Agent Configuration"/>
-</p>
-
----
-
-<!-- Orchestrator ↔ Agent Conversation -->
-### 🔹 Orchestrator ↔ Agent Conversation
-
+<!-- Row 1: Multi-Agent + Executive Summary -->
 <table>
   <tr>
-    <td align="center" width="33%">
-      <img src="screenshots/02-orchestrator-conversation.png" width="95%" alt="Orchestrator Main View"/>
+    <td align="center" width="50%">
+      <img src="screenshots/01-three-agents.png" width="90%" alt="Multi-Agent Configuration"/>
       <br/>
-      <b>Main Orchestrator View</b>
+      <b>🧠 Multi-Agent Configuration</b>
     </td>
-    <td align="center" width="33%">
-      <img src="screenshots/02-orchestrator-conversation_1.png" width="95%" alt="FinOps Analyzer Interaction"/>
+    <td align="center" width="50%">
+      <img src="screenshots/03-executive-summary.png" width="90%" alt="Executive Summary Output"/>
       <br/>
-      <b>FinOps Analyzer Interaction</b>
-    </td>
-    <td align="center" width="33%">
-      <img src="screenshots/02-orchestrator-conversation_2.png" width="95%" alt="SRE Risk Evaluator Interaction"/>
-      <br/>
-      <b>SRE Risk Evaluator Interaction</b>
+      <b>📊 Executive Summary Output</b>
     </td>
   </tr>
 </table>
 
----
+<br/>
+
+<!-- Row 2: Orchestrator Conversations -->
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="screenshots/02-orchestrator-conversation.png" width="90%" alt="Orchestrator Main View"/>
+      <br/>
+      <b>🎛️ Orchestrator View</b>
+    </td>
+    <td align="center" width="33%">
+      <img src="screenshots/02-orchestrator-conversation_1.png" width="90%" alt="FinOps Analyzer Interaction"/>
+      <br/>
+      <b>💰 FinOps Analyzer</b>
+    </td>
+    <td align="center" width="33%">
+      <img src="screenshots/02-orchestrator-conversation_2.png" width="90%" alt="SRE Risk Evaluator Interaction"/>
+      <br/>
+      <b>🛡️ SRE Risk Evaluator</b>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- Row 3: Safe vs Blocked Decisions -->
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="screenshots/04-safe-recommendations.png" width="90%" alt="Safe Cost Optimizations"/>
+      <br/>
+      <b>✅ Safe Cost Optimizations</b>
+    </td>
+    <td align="center" width="50%">
+      <img src="screenshots/05-blocked-risky-change.png" width="90%" alt="Blocked Risky Change"/>
+      <br/>
+      <b>🚫 Blocked Risky Change</b>
+    </td>
+  </tr>
+</table>
 
 <!-- Executive Summary -->
 ### 🔹 Executive Summary Output
