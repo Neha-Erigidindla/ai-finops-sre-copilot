@@ -191,9 +191,7 @@ This project demonstrates:
 - Proves AI can make technical decisions confidently and safely
 
 ## 👨‍💻 Author
-
-**[Neha-Erigidindla]**
-- GitHub: [https://github.com/Neha-Erigidindla/ai-finops-sre-copilot]
+- GitHub: [Neha-Erigidindla](https://github.com/Neha-Erigidindla/ai-finops-sre-copilot)
 - Hackathon: IBM Dev Day AI Demystified 2026
 
 ## 🙏 Acknowledgments
