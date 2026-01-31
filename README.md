@@ -105,7 +105,6 @@ A <b>multi-agent AI system</b> that behaves like a real cloud operations team.
 ```
 
 ---
-
 ## 📸 Demo Screenshots
 
 <!-- Row 1: Multi-Agent + Executive Summary -->
@@ -165,35 +164,7 @@ A <b>multi-agent AI system</b> that behaves like a real cloud operations team.
   </tr>
 </table>
 
-<!-- Executive Summary -->
-### 🔹 Executive Summary Output
-
-<p align="center">
-  <img src="screenshots/03-executive-summary.png" width="75%" alt="Executive Summary Output"/>
-</p>
-
 ---
-
-<!-- Safe vs Blocked -->
-### 🔹 Optimization Decisions Overview
-
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <img src="screenshots/04-safe-recommendations.png" width="95%" alt="Safe Cost Optimizations"/>
-      <br/>
-      <b>✅ Safe Cost Optimizations</b>
-    </td>
-    <td align="center" width="50%">
-      <img src="screenshots/05-blocked-risky-change.png" width="95%" alt="Blocked Risky Change"/>
-      <br/>
-      <b>🚫 Blocked Risky Change</b>
-    </td>
-  </tr>
-</table>
-
----
-
 
 ## 📊 Results
 
