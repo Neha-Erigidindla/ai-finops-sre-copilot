@@ -108,24 +108,69 @@ A <b>multi-agent AI system</b> that behaves like a real cloud operations team.
 
 ## 📸 Demo Screenshots
 
+<!-- Multi-Agent Configuration -->
 ### 🔹 Multi-Agent Configuration
-![Three Agents](screenshots/01-three-agents.png)
 
-### 🔹 Orchestrator ↔ Agent Conversation
-![Conversation](screenshots/02-orchestrator-conversation.png)
-![Conversation 1](screenshots/02-orchestrator-conversation_1.png)
-![Conversation 2](screenshots/02-orchestrator-conversation_2.png)
-
-### 🔹 Executive Summary Output
-![Executive Summary](screenshots/03-executive-summary.png)
-
-### 🔹 Safe Cost Optimizations
-![Safe Recommendations](screenshots/04-safe-recommendations.png)
-
-### 🔹 Blocked Risky Change
-![Blocked Risky Change](screenshots/05-blocked-risky-change.png)
+<p align="center">
+  <img src="screenshots/01-three-agents.png" width="70%" alt="Multi-Agent Configuration"/>
+</p>
 
 ---
+
+<!-- Orchestrator ↔ Agent Conversation -->
+### 🔹 Orchestrator ↔ Agent Conversation
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="screenshots/02-orchestrator-conversation.png" width="95%" alt="Orchestrator Main View"/>
+      <br/>
+      <b>Main Orchestrator View</b>
+    </td>
+    <td align="center" width="33%">
+      <img src="screenshots/02-orchestrator-conversation_1.png" width="95%" alt="FinOps Analyzer Interaction"/>
+      <br/>
+      <b>FinOps Analyzer Interaction</b>
+    </td>
+    <td align="center" width="33%">
+      <img src="screenshots/02-orchestrator-conversation_2.png" width="95%" alt="SRE Risk Evaluator Interaction"/>
+      <br/>
+      <b>SRE Risk Evaluator Interaction</b>
+    </td>
+  </tr>
+</table>
+
+---
+
+<!-- Executive Summary -->
+### 🔹 Executive Summary Output
+
+<p align="center">
+  <img src="screenshots/03-executive-summary.png" width="75%" alt="Executive Summary Output"/>
+</p>
+
+---
+
+<!-- Safe vs Blocked -->
+### 🔹 Optimization Decisions Overview
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="screenshots/04-safe-recommendations.png" width="95%" alt="Safe Cost Optimizations"/>
+      <br/>
+      <b>✅ Safe Cost Optimizations</b>
+    </td>
+    <td align="center" width="50%">
+      <img src="screenshots/05-blocked-risky-change.png" width="95%" alt="Blocked Risky Change"/>
+      <br/>
+      <b>🚫 Blocked Risky Change</b>
+    </td>
+  </tr>
+</table>
+
+---
+
 
 ## 📊 Results
 
