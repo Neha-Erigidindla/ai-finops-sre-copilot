@@ -134,7 +134,7 @@ Blocked changes: 1 service
 Recommendation:
 Deploy safe optimizations immediately.
 Use phased canary deployments for caution items.
-
+```
 ## 🛠️ Technical Stack
 
 - **Platform:** IBM watsonx Orchestrate
