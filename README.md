@@ -149,10 +149,9 @@ ai-finops-sre-copilot/
 ├── README.md
 ├── data/
 │   └── cloud_infrastructure_metrics.csv
-├── agents/
-│   ├── finops_analyzer.prompt
-│   ├── sre_risk_evaluator.prompt
-│   └── orchestrator.prompt
+├── docs/
+│   ├── architecture.md
+│   └── agent-instructions.md
 └── screenshots/
     ├── 01-three-agents.png
     ├── 02-orchestrator-conversation.png
@@ -161,6 +160,7 @@ ai-finops-sre-copilot/
     ├── 03-executive-summary.png
     ├── 04-safe-recommendations.png
     └── 05-blocked-risky-change.png
+
 
 ```
 
