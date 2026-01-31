@@ -1,0 +1,11 @@
+service_name,instance_type,vcpu,memory_gb,cpu_util_percent,mem_util_percent,monthly_cost_usd,avg_latency_ms,error_rate_percent,slo_latency_ms,slo_error_rate_percent
+payment-api,m5.2xlarge,8,32,35,40,450,45,0.1,100,0.5
+user-dashboard,t3.xlarge,4,16,65,70,180,120,0.3,200,1.0
+analytics-batch,c5.4xlarge,16,32,25,30,720,500,0.05,1000,0.2
+auth-service,m5.xlarge,4,16,75,80,225,35,0.15,50,0.5
+notification-worker,t3.medium,2,4,20,25,60,300,0.01,500,0.1
+search-engine,r5.2xlarge,8,64,80,85,520,80,0.2,150,1.0
+image-processor,c5.2xlarge,8,16,45,50,380,200,0.08,300,0.5
+database-primary,r5.4xlarge,16,128,70,75,890,25,0.02,50,0.1
+cache-cluster,r5.xlarge,4,32,90,88,280,5,0.001,10,0.01
+api-gateway,m5.large,2,8,55,60,110,80,0.12,150,0.5
