@@ -81,7 +81,7 @@ A <b>multi-agent AI system</b> that behaves like a real cloud operations team.
 <table align="center" width="80%" border="1" cellpadding="12" cellspacing="0" style="border-color:#d0d7de;">
   <tr>
     <td align="center" bgcolor="#f6f8fa">
-      <img src="screenshots/architecture.png" width="100%" alt="Multi-Agent Configuration"/>
+      <img src="screenshots/architecture.png" width="75%" alt="Multi-Agent Configuration"/>
       <br/><br/>
     </td>
   </tr>
