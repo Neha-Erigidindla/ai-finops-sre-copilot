@@ -107,84 +107,87 @@ A <b>multi-agent AI system</b> that behaves like a real cloud operations team.
 ---
 ## 📸 Demo Screenshots
 
-> A step-by-step visual walkthrough of the **AI FinOps & SRE Co-Pilot**, showing how agents collaborate to produce safe, cost-optimized decisions.
+<!-- Multi-Agent Configuration -->
+### 🔹 Multi-Agent Configuration
 
-<br/>
-
-<!-- ROW 1: System Setup -->
-<table>
+<table align="center" width="80%" border="1" cellpadding="12" cellspacing="0" style="border-color:#d0d7de;">
   <tr>
-    <td align="center" width="50%">
-      <img src="screenshots/01-three-agents.png" width="90%" alt="Multi-Agent Setup"/>
-      <br/>
-      <b>🧠 Multi-Agent Setup</b><br/>
-      <sub>FinOps Analyzer, SRE Risk Evaluator, and Orchestrator configured</sub>
-    </td>
-    <td align="center" width="50%">
-      <img src="screenshots/02-orchestrator-conversation.png" width="90%" alt="Orchestrator Entry Point"/>
-      <br/>
-      <b>🎛️ Orchestrator Entry Point</b><br/>
-      <sub>User request triggers coordinated agent workflow</sub>
+    <td align="center" bgcolor="#f6f8fa">
+      <img src="screenshots/01-three-agents.png" width="70%" alt="Multi-Agent Configuration"/>
+      <br/><br/>
+      <b>🧠 Multi-Agent Configuration</b>
     </td>
   </tr>
 </table>
 
 <br/>
-
-<!-- ROW 2: Agent Collaboration -->
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <img src="screenshots/02-orchestrator-conversation_1.png" width="90%" alt="FinOps Analyzer Reasoning"/>
-      <br/>
-      <b>💰 FinOps Analyzer Reasoning</b><br/>
-      <sub>Detects over-provisioned services and estimates savings</sub>
-    </td>
-    <td align="center" width="50%">
-      <img src="screenshots/02-orchestrator-conversation_2.png" width="90%" alt="SRE Risk Evaluation"/>
-      <br/>
-      <b>🛡️ SRE Risk Evaluation</b><br/>
-      <sub>Validates recommendations against latency & error SLOs</sub>
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-<!-- ROW 3: Decision Synthesis -->
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <img src="screenshots/03-executive-summary.png" width="90%" alt="Executive Summary"/>
-      <br/>
-      <b>📊 Executive Summary</b><br/>
-      <sub>Orchestrator synthesizes agent outputs into leadership-ready insights</sub>
-    </td>
-    <td align="center" width="50%">
-      <img src="screenshots/04-safe-recommendations.png" width="90%" alt="Safe Recommendations"/>
-      <br/>
-      <b>✅ Safe Cost Optimizations</b><br/>
-      <sub>Low-risk changes approved for immediate deployment</sub>
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-<!-- ROW 4: Risk Prevention -->
-<table>
-  <tr>
-    <td align="center" width="100%">
-      <img src="screenshots/05-blocked-risky-change.png" width="60%" alt="Blocked Risky Change"/>
-      <br/>
-      <b>🚫 Risk Prevention in Action</b><br/>
-      <sub>System blocks a change that would violate production SLOs</sub>
-    </td>
-  </tr>
-</table>
-
 
 ---
+
+<!-- Orchestrator ↔ Agent Conversation -->
+### 🔹 Orchestrator ↔ Agent Conversation
+
+<table width="100%" border="1" cellpadding="10" cellspacing="0" style="border-color:#d0d7de;">
+  <tr bgcolor="#f6f8fa">
+    <td align="center" width="33%">
+      <img src="screenshots/02-orchestrator-conversation.png" width="95%" alt="Orchestrator Main View"/>
+      <br/><br/>
+      <b>🎛️ Main Orchestrator View</b>
+    </td>
+    <td align="center" width="33%">
+      <img src="screenshots/02-orchestrator-conversation_1.png" width="95%" alt="FinOps Analyzer Interaction"/>
+      <br/><br/>
+      <b>💰 FinOps Analyzer Interaction</b>
+    </td>
+    <td align="center" width="33%">
+      <img src="screenshots/02-orchestrator-conversation_2.png" width="95%" alt="SRE Risk Evaluator Interaction"/>
+      <br/><br/>
+      <b>🛡️ SRE Risk Evaluator Interaction</b>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+---
+
+<!-- Executive Summary -->
+### 🔹 Executive Summary Output
+
+<table align="center" width="85%" border="1" cellpadding="12" cellspacing="0" style="border-color:#d0d7de;">
+  <tr>
+    <td align="center" bgcolor="#f6f8fa">
+      <img src="screenshots/03-executive-summary.png" width="75%" alt="Executive Summary Output"/>
+      <br/><br/>
+      <b>📊 Executive Summary Output</b>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+---
+
+<!-- Safe vs Blocked -->
+### 🔹 Optimization Decisions Overview
+
+<table width="100%" border="1" cellpadding="10" cellspacing="0" style="border-color:#d0d7de;">
+  <tr bgcolor="#f6f8fa">
+    <td align="center" width="50%">
+      <img src="screenshots/04-safe-recommendations.png" width="95%" alt="Safe Cost Optimizations"/>
+      <br/><br/>
+      <b>✅ Safe Cost Optimizations</b>
+    </td>
+    <td align="center" width="50%">
+      <img src="screenshots/05-blocked-risky-change.png" width="95%" alt="Blocked Risky Change"/>
+      <br/><br/>
+      <b>🚫 Blocked Risky Change</b>
+    </td>
+  </tr>
+</table>
+
+---
+
 
 ## 📊 Results
 
