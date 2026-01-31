@@ -113,7 +113,7 @@ A <b>multi-agent AI system</b> that behaves like a real cloud operations team.
 <table align="center" width="80%" border="1" cellpadding="12" cellspacing="0" style="border-color:#d0d7de;">
   <tr>
     <td align="center" bgcolor="#f6f8fa">
-      <img src="screenshots/01-three-agents.png" width="70%" alt="Multi-Agent Configuration"/>
+      <img src="screenshots/01-three-agents.png" width="95%" alt="Multi-Agent Configuration"/>
       <br/><br/>
       <b>🧠 Multi-Agent Configuration</b>
     </td>
@@ -157,7 +157,7 @@ A <b>multi-agent AI system</b> that behaves like a real cloud operations team.
 <table align="center" width="85%" border="1" cellpadding="12" cellspacing="0" style="border-color:#d0d7de;">
   <tr>
     <td align="center" bgcolor="#f6f8fa">
-      <img src="screenshots/03-executive-summary.png" width="75%" alt="Executive Summary Output"/>
+      <img src="screenshots/03-executive-summary.png" width="95%" alt="Executive Summary Output"/>
       <br/><br/>
       <b>📊 Executive Summary Output</b>
     </td>
