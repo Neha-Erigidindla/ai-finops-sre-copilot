@@ -298,7 +298,7 @@ Building this system reinforced key concepts that define <b>modern cloud operati
     </td>
   </tr>
 </table>
-
+---
 
 ## 🌟 Real-World Applications
 
