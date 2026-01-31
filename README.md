@@ -113,7 +113,7 @@ A <b>multi-agent AI system</b> that behaves like a real cloud operations team.
 <table align="center" width="80%" border="1" cellpadding="12" cellspacing="0" style="border-color:#d0d7de;">
   <tr>
     <td align="center" bgcolor="#f6f8fa">
-      <img src="screenshots/01-three-agents.png" width="95%" alt="Multi-Agent Configuration"/>
+      <img src="screenshots/01-three-agents.png" width="100%" alt="Multi-Agent Configuration"/>
       <br/><br/>
       <b>🧠 Multi-Agent Configuration</b>
     </td>
@@ -126,20 +126,26 @@ A <b>multi-agent AI system</b> that behaves like a real cloud operations team.
 
 <!-- Orchestrator ↔ Agent Conversation -->
 ### 🔹 Orchestrator ↔ Agent Conversation
-
-<table width="100%" border="1" cellpadding="10" cellspacing="0" style="border-color:#d0d7de;">
-  <tr bgcolor="#f6f8fa">
-    <td align="center" width="33%">
+<table align="center" width="80%" border="1" cellpadding="12" cellspacing="0" style="border-color:#d0d7de;">
+  <tr>
+    <td align="center" bgcolor="#f6f8fa">
       <img src="screenshots/02-orchestrator-conversation.png" width="100%" alt="Orchestrator Main View"/>
       <br/><br/>
       <b>🎛️ Main Orchestrator View</b>
     </td>
-    <td align="center" width="33%">
+  </tr>
+</table>
+<br/>
+
+---
+<table width="100%" border="1" cellpadding="10" cellspacing="0" style="border-color:#d0d7de;">
+ <tr bgcolor="#f6f8fa">
+    <td align="center" width="50%">
       <img src="screenshots/02-orchestrator-conversation_1.png" width="100%" alt="FinOps Analyzer Interaction"/>
       <br/><br/>
       <b>💰 FinOps Analyzer Interaction</b>
     </td>
-    <td align="center" width="33%">
+    <td align="center" width="50%">
       <img src="screenshots/02-orchestrator-conversation_2.png" width="100%" alt="SRE Risk Evaluator Interaction"/>
       <br/><br/>
       <b>🛡️ SRE Risk Evaluator Interaction</b>
