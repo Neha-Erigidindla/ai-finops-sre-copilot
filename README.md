@@ -130,17 +130,17 @@ A <b>multi-agent AI system</b> that behaves like a real cloud operations team.
 <table width="100%" border="1" cellpadding="10" cellspacing="0" style="border-color:#d0d7de;">
   <tr bgcolor="#f6f8fa">
     <td align="center" width="33%">
-      <img src="screenshots/02-orchestrator-conversation.png" width="95%" alt="Orchestrator Main View"/>
+      <img src="screenshots/02-orchestrator-conversation.png" width="100%" alt="Orchestrator Main View"/>
       <br/><br/>
       <b>🎛️ Main Orchestrator View</b>
     </td>
     <td align="center" width="33%">
-      <img src="screenshots/02-orchestrator-conversation_1.png" width="95%" alt="FinOps Analyzer Interaction"/>
+      <img src="screenshots/02-orchestrator-conversation_1.png" width="100%" alt="FinOps Analyzer Interaction"/>
       <br/><br/>
       <b>💰 FinOps Analyzer Interaction</b>
     </td>
     <td align="center" width="33%">
-      <img src="screenshots/02-orchestrator-conversation_2.png" width="95%" alt="SRE Risk Evaluator Interaction"/>
+      <img src="screenshots/02-orchestrator-conversation_2.png" width="100%" alt="SRE Risk Evaluator Interaction"/>
       <br/><br/>
       <b>🛡️ SRE Risk Evaluator Interaction</b>
     </td>
@@ -157,7 +157,7 @@ A <b>multi-agent AI system</b> that behaves like a real cloud operations team.
 <table align="center" width="85%" border="1" cellpadding="12" cellspacing="0" style="border-color:#d0d7de;">
   <tr>
     <td align="center" bgcolor="#f6f8fa">
-      <img src="screenshots/03-executive-summary.png" width="95%" alt="Executive Summary Output"/>
+      <img src="screenshots/03-executive-summary.png" width="100%" alt="Executive Summary Output"/>
       <br/><br/>
       <b>📊 Executive Summary Output</b>
     </td>
@@ -174,12 +174,12 @@ A <b>multi-agent AI system</b> that behaves like a real cloud operations team.
 <table width="100%" border="1" cellpadding="10" cellspacing="0" style="border-color:#d0d7de;">
   <tr bgcolor="#f6f8fa">
     <td align="center" width="50%">
-      <img src="screenshots/04-safe-recommendations.png" width="95%" alt="Safe Cost Optimizations"/>
+      <img src="screenshots/04-safe-recommendations.png" width="100%" alt="Safe Cost Optimizations"/>
       <br/><br/>
       <b>✅ Safe Cost Optimizations</b>
     </td>
     <td align="center" width="50%">
-      <img src="screenshots/05-blocked-risky-change.png" width="95%" alt="Blocked Risky Change"/>
+      <img src="screenshots/05-blocked-risky-change.png" width="100%" alt="Blocked Risky Change"/>
       <br/><br/>
       <b>🚫 Blocked Risky Change</b>
     </td>
