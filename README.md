@@ -258,7 +258,7 @@ ai-finops-sre-copilot/
 
 
 ```
-
+---
 ## 🎓 What I Learned
 
 <p>
@@ -298,8 +298,8 @@ Building this system reinforced key concepts that define <b>modern cloud operati
     </td>
   </tr>
 </table>
----
 
+---
 ## 🌟 Real-World Applications
 
 This pattern can be extended to:
