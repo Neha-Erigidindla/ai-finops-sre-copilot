@@ -1,4 +1,4 @@
-# 🚀 AI FinOps & SRE Co-Pilot  
+# AI FinOps & SRE Co-Pilot  
 > **IBM Dev Day – AI Demystified Hackathon 2026**
 
 🔍 *Optimize cloud costs without breaking production.*
@@ -9,7 +9,7 @@ Built using **IBM watsonx Orchestrate** and **IBM Granite 3.1**.
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Cloud costs are increasing **20–30% every year**, but organizations struggle to optimize because:
 
