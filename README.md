@@ -24,30 +24,57 @@ Cloud costs are increasing **20–30% every year**, but organizations struggle t
 
 ## 💡 Solution Overview
 
-A **multi-agent AI system** that behaves like a real cloud operations team.
+<p align="center">
+A <b>multi-agent AI system</b> that behaves like a real cloud operations team.
+</p>
+
+<table>
+<tr>
+<td width="33%" valign="top">
 
 ### 🟦 FinOps Analyzer Agent
-- Analyzes CPU & memory utilization
-- Detects over-provisioned resources
-- Recommends right-sizing actions
-- Estimates monthly cost savings
+
+<ul>
+<li>Analyzes CPU & memory utilization</li>
+<li>Detects over-provisioned resources</li>
+<li>Recommends right-sizing actions</li>
+<li>Estimates monthly cost savings</li>
+</ul>
+
+</td>
+<td width="33%" valign="top">
 
 ### 🟩 SRE Risk Evaluator Agent
-- Reviews FinOps recommendations
-- Analyzes latency & error-rate SLOs
-- Classifies changes as:
-  - ✅ SAFE  
-  - ⚠️ CAUTION  
-  - 🚫 RISKY  
-- Blocks changes that could break production
+
+<ul>
+<li>Reviews FinOps recommendations</li>
+<li>Analyzes latency & error-rate SLOs</li>
+<li>Classifies changes as:
+  <ul>
+    <li>✅ SAFE</li>
+    <li>⚠️ CAUTION</li>
+    <li>🚫 RISKY</li>
+  </ul>
+</li>
+<li>Blocks risky production changes</li>
+</ul>
+
+</td>
+<td width="33%" valign="top">
 
 ### 🟨 Orchestrator (FinOps & SRE Co-Pilot)
-- Coordinates all agents
-- Synthesizes insights into executive-level reports
-- Balances **cost efficiency + reliability**
-- Produces clear, actionable decisions
 
----
+<ul>
+<li>Coordinates all agents</li>
+<li>Synthesizes executive-level reports</li>
+<li>Balances <b>cost efficiency + reliability</b></li>
+<li>Produces clear, actionable decisions</li>
+</ul>
+
+</td>
+</tr>
+</table>
+
 
 ## 🏗️ System Architecture
 
