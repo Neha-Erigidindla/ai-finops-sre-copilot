@@ -262,13 +262,15 @@ ai-finops-sre-copilot/
 ## 🎓 What I Learned
 
 <p>
-Building this system reinforced key concepts that define <b>modern cloud operations</b> and large-scale infrastructure management.
+Building this system reinforced key concepts that define <b>modern cloud operations</b> and
+<b>large-scale infrastructure management</b>.
 </p>
 
 <br/>
 
 <table width="100%" border="1" cellpadding="14" cellspacing="0" style="border-color:#d0d7de;">
   <tr bgcolor="#f6f8fa">
+
     <td width="33%" valign="top">
       <b>🧠 Multi-Agent Systems</b>
       <ul>
@@ -296,8 +298,10 @@ Building this system reinforced key concepts that define <b>modern cloud operati
         <li>Automated safety checks prevent human error</li>
       </ul>
     </td>
+
   </tr>
 </table>
+
 
 ---
 ## 🌟 Real-World Applications
