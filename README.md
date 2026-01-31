@@ -261,45 +261,51 @@ ai-finops-sre-copilot/
 ---
 ## 🎓 What I Learned
 
-<p>
-Building this system reinforced key concepts that define <b>modern cloud operations</b> and
-<b>large-scale infrastructure management</b>.
+<p align="center">
+Key engineering principles reinforced while building a <b>production-grade, agentic AI system</b>.
 </p>
 
-<br/>
+<table>
+<tr>
 
-<table width="100%" border="1" cellpadding="14" cellspacing="0" style="border-color:#d0d7de;">
-  <tr bgcolor="#f6f8fa">
+<td width="33%" valign="top">
 
-    <td width="33%" valign="top">
-      <b>🧠 Multi-Agent Systems</b>
-      <ul>
-        <li>Separation of concerns improves reliability</li>
-        <li>Agent orchestration enables complex workflows</li>
-        <li>Specialized agents outperform general-purpose prompts</li>
-      </ul>
-    </td>
+### 🧠 Multi-Agent Systems
 
-    <td width="33%" valign="top">
-      <b>💰 FinOps Principles</b>
-      <ul>
-        <li>Utilization monitoring reveals infrastructure waste</li>
-        <li>Right-sizing requires domain & workload context</li>
-        <li>Cost optimization is continuous, not one-time</li>
-      </ul>
-    </td>
+<ul>
+<li>Separation of concerns improves system reliability</li>
+<li>Agent orchestration enables complex, end-to-end workflows</li>
+<li>Specialized agents outperform general-purpose prompts</li>
+</ul>
 
-    <td width="33%" valign="top">
-      <b>🛡️ SRE Best Practices</b>
-      <ul>
-        <li>SLOs define acceptable risk boundaries</li>
-        <li>Headroom analysis prevents production incidents</li>
-        <li>Phased rollouts reduce blast radius</li>
-        <li>Automated safety checks prevent human error</li>
-      </ul>
-    </td>
+</td>
 
-  </tr>
+<td width="33%" valign="top">
+
+### 💰 FinOps Principles
+
+<ul>
+<li>Utilization monitoring reveals infrastructure waste</li>
+<li>Right-sizing requires domain and workload context</li>
+<li>Cost optimization is continuous, not one-time</li>
+</ul>
+
+</td>
+
+<td width="33%" valign="top">
+
+### 🛡️ SRE Best Practices
+
+<ul>
+<li>SLOs define acceptable reliability boundaries</li>
+<li>Headroom analysis prevents production incidents</li>
+<li>Phased rollouts reduce blast radius</li>
+<li>Automated safety checks prevent human error</li>
+</ul>
+
+</td>
+
+</tr>
 </table>
 
 
