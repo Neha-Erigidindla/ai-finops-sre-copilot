@@ -261,23 +261,44 @@ ai-finops-sre-copilot/
 
 ## 🎓 What I Learned
 
-Building this system reinforced key concepts that define modern cloud operations:
+<p>
+Building this system reinforced key concepts that define <b>modern cloud operations</b> and large-scale infrastructure management.
+</p>
 
-### **Multi-Agent Systems**
-- Separation of concerns improves reliability
-- Agent orchestration enables complex workflows
-- Specialized agents > general-purpose prompts
+<br/>
 
-### **FinOps Principles**
-- Utilization monitoring identifies waste
-- Right-sizing requires domain knowledge
-- Cost optimization is continuous, not one-time
+<table width="100%" border="1" cellpadding="14" cellspacing="0" style="border-color:#d0d7de;">
+  <tr bgcolor="#f6f8fa">
+    <td width="33%" valign="top">
+      <b>🧠 Multi-Agent Systems</b>
+      <ul>
+        <li>Separation of concerns improves reliability</li>
+        <li>Agent orchestration enables complex workflows</li>
+        <li>Specialized agents outperform general-purpose prompts</li>
+      </ul>
+    </td>
 
-### **SRE Best Practices**
-- SLOs define acceptable risk boundaries
-- Headroom analysis prevents incidents
-- Phased rollouts reduce blast radius
-- Automated safety checks prevent human error
+    <td width="33%" valign="top">
+      <b>💰 FinOps Principles</b>
+      <ul>
+        <li>Utilization monitoring reveals infrastructure waste</li>
+        <li>Right-sizing requires domain & workload context</li>
+        <li>Cost optimization is continuous, not one-time</li>
+      </ul>
+    </td>
+
+    <td width="33%" valign="top">
+      <b>🛡️ SRE Best Practices</b>
+      <ul>
+        <li>SLOs define acceptable risk boundaries</li>
+        <li>Headroom analysis prevents production incidents</li>
+        <li>Phased rollouts reduce blast radius</li>
+        <li>Automated safety checks prevent human error</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
 
 ## 🌟 Real-World Applications
 
